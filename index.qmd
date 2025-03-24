@@ -6,9 +6,7 @@ format:
 ---
 
 ```{r}
-knitr::opts_chunk$set(
-  echo = TRUE
-)
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 Code in the chunk below is styled in both HTML and Typst output.

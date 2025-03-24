@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Code highlighting",
+    "section": "",
+    "text": "knitr::opts_chunk$set(\n  echo = TRUE\n)\n\nCode in the chunk below is styled in both HTML and Typst output.\n\nx &lt;- mean(1:10)\n\nCode in Listing 1 is styled in HTML but not Typst output.\n\n\n\n\nListing 1: A code listing!\n\n\nx &lt;- mean(1:10)"
+  }
+]

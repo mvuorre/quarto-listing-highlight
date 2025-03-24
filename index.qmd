@@ -1,0 +1,27 @@
+---
+title: Code highlighting
+format:
+  html: default
+  typst: default
+---
+
+```{r}
+knitr::opts_chunk$set(
+  echo = TRUE
+)
+```
+
+Code in the chunk below is styled in both HTML and Typst output.
+
+```{r}
+x <- mean(1:10)
+```
+
+Code in @lst-1 is styled in HTML but not Typst output.
+
+```{r}
+#| lst-label: lst-1
+#| lst-cap: A code listing.
+
+x <- mean(1:10)
+```
